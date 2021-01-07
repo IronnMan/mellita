@@ -1,0 +1,28 @@
+{
+    "name": "celaraze/mellita",
+    "description": "",
+    "type": "library",
+    "require": {
+        "dcat/laravel-admin": "2.*",
+        "stancl/tenancy": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Celaraze",
+            "email": "celaraze@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mellita\\SaaS\\MellitaSaaSServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mellita\\SaaS\\": "src/"
+        }
+    }
+}
